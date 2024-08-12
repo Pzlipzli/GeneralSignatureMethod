@@ -11,5 +11,5 @@ A general method of processing data and using signature to extract time characte
 # Reference
 20240603-东北证券-机器学习系列之五：GSM~Alpha，提取时序特征的统一框架 - Northeast Securities Co. Ltd.
 # Contributing
-Thanks to the following people who have contributed to this project
+Thanks to the following people who have contributed to this project:
 - [@Yitong-Guo](https://github.com/Yitong-Guo)
