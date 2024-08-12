@@ -8,3 +8,5 @@ A general method of processing data and using signature to extract time characte
 4. The generated file will be saved in ./config/data. This program generates one csv file for one day. The headers are alpha_0, alpha_1,
    alpha_2, ..., alpha_n, token, openTime, closeTime.
 5. The original time is UTF+8.
+# Reference
+20240603-东北证券-机器学习系列之五：GSM~Alpha，提取时序特征的统一框架 - Northeast Securities Co. Ltd.
