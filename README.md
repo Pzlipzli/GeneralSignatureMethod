@@ -1,5 +1,7 @@
-# GeneralSignatureMethod
+# General Signature Method
 A general method of processing data and using signature to extract time characteristics from the data.
+# Key Words:
+Quantitative Research, Alpha Signal Generation, Machine Learning.
 # Attention:
 1. Only DataLoader is runnable.
 2. Before running, change the data path in Settings.
