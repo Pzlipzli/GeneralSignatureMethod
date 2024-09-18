@@ -190,7 +190,9 @@ class SignatureAugment:
         if log:
             sig_list = []
             for array in data_after_scale:
-                ssig = iisignature.logsig(array, sig_depth)
+                d = array.shape[1]
+                prep = iisignature.prepare(d, sig_depth, "O")
+                ssig = iisignature.logsig(array, prep)
                 if scale == 'post':
                     sig_list.append(post_signature_scaling(ssig, array, sig_depth))
                 else:
